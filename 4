@@ -1,0 +1,24 @@
+local MBMUI = Instance.new("ScreenGui")
+local MBMFRAME = Instance.new("Frame")
+local MBMTLB = Instance.new("TextLabel")
+
+MBMUI.Name = "MBMUI"
+MBMUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MBMUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MBMFRAME.Name = "MBMFRAME"
+MBMFRAME.Parent = MBMUI
+MBMFRAME.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MBMFRAME.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MBMFRAME.BorderSizePixel = 0
+MBMFRAME.Position = UDim2.new(0.224489793, 0, 0.440677971, 0)
+
+MBMTLB.Name = "MBMTLB"
+MBMTLB.Parent = MBMFRAME
+MBMTLB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MBMTLB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MBMTLB.BorderSizePixel = 0
+MBMTLB.Font = Enum.Font.SourceSans
+MBMTLB.Text = " "
+MBMTLB.TextColor3 = Color3.fromRGB(0, 0, 0)
+MBMTLB.TextSize = 14.000
